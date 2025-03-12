@@ -161,6 +161,8 @@ body {
 }
 .card:hover .card-img-overlay {
     opacity: 0.85;
+    border-top-left-radius: 1rem !important;
+    border-top-right-radius: 1rem !important;
 }
 
 /* Text Hover Effect */

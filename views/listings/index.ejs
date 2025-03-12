@@ -2,11 +2,7 @@
 
 <body>
     
-    <!-- <form action="/listings/new" method="get">
-        <button>Create new listing</button>
-    </form> -->
-
-    <div class="row row-cols-lg-3 row-cols-md-3 row-cols-sm-2 row-cols-1">
+    <div class="row row-cols-lg-3 row-cols-md-3 row-cols-sm-2 row-cols-1 mt-3">
         <% allListings.forEach(function(listing) { %>
         <a href="/listings/<%= listing._id%>" class="listing-link">
             <div class="card col listing-card">
